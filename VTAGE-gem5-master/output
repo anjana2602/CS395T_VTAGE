@@ -1,0 +1,20 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Apr 28 2018 11:09:56
+gem5 started Apr 28 2018 11:11:22
+gem5 executing on anjana-VirtualBox, pid 14482
+command line: ./build/X86/gem5.opt --debug-flags=VP configs/example/se.py --cpu-type=DerivO3CPU --caches --l2cache -c tests/test-progs/hello/bin/x86/linux/hello
+
+Global frequency set at 1000000000000 ticks per second
+      0: system.cpu.valuePred: 
+creating generic VP
+**** REAL SIMULATION ****
+10192500: system.cpu.valuePred: PC = 0x40f9da, Confidence = 0
+10192500: system.cpu.valuePred: PC = 0x40f9da, Confidence = 1
+10214500: system.cpu.valuePred: PC = 0x40f9e2, Confidence = 0
+10214500: system.cpu.valuePred: PC = 0x40f9e2, Confidence = 1
+15012000: system.cpu.valuePred: PC = 0x40a11c, Confidence = 0
+15012000: system.cpu.valuePred: PC = 0x40a11c, Confidence = 1
+Hello world!
+Exiting @ tick 22033000 because exiting with last active thread context
